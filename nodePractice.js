@@ -2,7 +2,7 @@
 const getInput = require("./get-input.js");
 let userFirstName = getInput(1)
 let userLastName = getInput(2)
-console.log("Hello," + userFirstName + " " + userLastName)
+console.log("Hello," + " "+ userFirstName + " " + userLastName)
 
 console.log(userFirstName.toUpperCase() + " " + userLastName.toUpperCase() + " " + "your name is capitalized.")
 
